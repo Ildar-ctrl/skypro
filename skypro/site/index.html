@@ -1,53 +1,52 @@
 <!DOCTYPE html>
-<html lang="en-ru">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        
-        <a href="logo.svg"><img src="logo.svg" alt="Логотип"></a>
+    <header> 
+        <a href="index.html"></a><img src="img/logo.svg" alt="Логотип">
+        <form action="#">
+            <input type="text">
+        </form>
         <nav>
-            <a href="catalog.html">Каталог</a>
-            <a href="basket.html">Корзина</a>
+            <a href="catalog.html" class="catalog">Каталог</a>
+            <a href="basket.html" class="basket">Корзина</a>
         </nav>
     </header>
         <section>
-            <h1>Всё, чего заслуживает ваш дом</h1>
-            <p>Наша мебель — ваше отражение</p>
-            <a href="catalog.html">Перейти в каталог</a>
+            <h1 class="header">Всё, чего заслуживает ваш дом</h1>
+            <p class="paragraf">Наша мебель — ваше отражение</p>
+            <a href="catalog.html" class="catalog1">Перейти в каталог</a>
         </section>
         <section>
-            <h2>Специальные предложения</h2>
-            <img src="product1.jpg" alt="Продукт 1">
-            <h3>Кресло VILORA</h3>
-            <p>Мягкое и уютное, аккуратное и стильное. Упругие подушки сиденья и приятная на ощупь ткань.</p>
-            <p>21000</p>
-            <p>28000</p>
+            <h2 class="header-big">Специальные предложения</h2>
+            <img src="img/product1.jpg" alt="Продукт 1">
+            <h3 class="armchair">Кресло VILORA</h3>
+            <p class="description">Мягкое и уютное, аккуратное и стильное. Упругие подушки сиденья и приятная на ощупь ткань.</p>
+            <p class="price">21000</p>
+            <p class="price1">28000</p>
         </section>
     <footer>
-        <img src="logo.svg" alt="Логотип">
-        <h4>Меню</h4>
-        <nav>
-        <a href="index.html">Главная</a>
-        <a href="catalog.html">Каталог</a>
-        <a href="basket.html">Корзина</a>
-        </nav>
-        <h4>Контакты</h4>
-        <nav>
-            <a href="">+7 908 800 80 80</a>
-            <a href="">help@interier.com</a>
-            <a href="facebook.svg"><img src="facebook.svg" alt=""></a>
-            <a href="twitter.svg"><img src="twitter.svg" alt=""></a>
-            <a href="inst.svg"><img src="inst.svg" alt=""></a>
-        </nav>
+        <a href=""><img src="img/logo.svg" alt="Логотип"></a>
+        <h4 class="menu">Меню</h4>
+        <a href="index.html" class="main">Главная</a>
+        <a href="catalog.html"  class="catal-1">Каталог</a>
+        <a href="basket.html" class="basket1">Корзина</a>
+        <h4 class="contacts" class="contacts1">Контакты</h4>
+            <a href="#" class="numbers">+7 908 800 80 80</a>
+            <a href="#" class="email">help@interier.com</a>
+            <a href="#"><img src="img/facebook.svg" alt="Фейсбук"></a>
+            <a href="#"><img src="img/twitter.svg" alt="Твиттер"></a>
+            <a href="#"><img src="img/inst.svg" alt="Инстаграмм"></a>
         <form action="#">
-            <p>Получайте наши новости и обновления</p><br>
-            <input type="email"><br>
-            <button>Подписаться</button>
+            <p class="news">Получайте наши новости и обновления</p><br>
+            <input type="email" class="email1">
+            <button type="submit" class="cubscribe">Подписаться</button>
         </footer>
 
 </body>
